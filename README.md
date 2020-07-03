@@ -1,4 +1,4 @@
-# MomoAPIClientDemo
+# MTN Momo API Client Demo
 
 Momo API Client Demo using React Native
 
