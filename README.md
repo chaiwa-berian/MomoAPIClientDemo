@@ -1,6 +1,6 @@
 # MomoAPIClientDemo
 
-Momo API Client Demo using Reactive Native
+Momo API Client Demo using React Native
 
 1. `npm install -g expo-cli`
 2. `npm install`
