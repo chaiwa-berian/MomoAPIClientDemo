@@ -51,6 +51,7 @@ export default function App() {
       let response = await fetch(url, {
         method: "POST",
         headers: requestHeaders,
+        mode: "cors",
       });
       let responseData = response.status == 200 ? await response.json() : null;
       setResponseObject({
@@ -73,7 +74,7 @@ export default function App() {
       setResponseObject({
         status: error.status || null,
         ok: error.ok || null,
-        statusText: response.statusText || null,
+        statusText: error.statusText || null,
         data: error.message,
       });
       console.log("Error in create new token method:", error);
